@@ -1,44 +1,62 @@
 body {
-display: flex;
-gap: 16px;
-}
-
-.main, .aside {
- width: 50vw;
- height: 100vh;
- padding: 30px 80px;
-}
-
-.aside {
- background-color: blue;
- margin-top: 16px;
-}
-
-.aside-txt {
- color: #fff;
+ display: flex;
+ gap: 20px;
 }
 
 .button-group {
  display: flex;
- gap: 16px;
  margin-bottom: 30px;
+ gap: 16px;
 }
 
 .button {
- backround-color: #fff;
- border-color: #1d1d1d;
- padding: 20px 80px;
- border-radius: 20px;
  display: flex;
- align-items: center;
- justify-content: space-between;
+ border-color: red;
+ border-radius: 5px;
 }
 
-.button__google, .button__apple {
- width: 16px;
+.google-image {
+ height: 20px;
+ width: 20px;
 }
 
-label {
+.apple-image {
+  height: 20px;
+ width: 20px;
+}
+.form {
  display: flex;
  flex-direction: column;
+ gap: 16px;
+}
+
+.aside {
+ background-color: blue;
+ border: 1px;
+ border-radius: 10px;
+ width: 100vw;
+ height: 200vh;
+ margin-top: 16px;
+ padding-left: 80px;
+}
+ 
+.aside-form {
+ width: 50vw;
+ height: 100vh;
+ margin-top: 20px;
+ background-color: white;
+ border: 1px;
+ border-radius: 5px;
+ padding-left: 16px;
+ padding-right: 16px;
+}
+
+.main {
+ width: 50vw;
+ height: 100vh;
+}
+
+.form-buttons {
+ display: flex;
+ justify-content: space-between;
 }
